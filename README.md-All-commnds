@@ -1,0 +1,4 @@
+# Installing git 
+sudo yum install -y 
+# Installin Docker
+sudo yum install Docker-co
