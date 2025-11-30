@@ -5,7 +5,7 @@ WORKDIR /app
 # Install backend dependencies
 COPY pacage*.json ./
 # install
-RUN npm install
+RUN npm install --only=production
 # Copy the rest of the backend code
 COPY . . 
 # Expose backend port
